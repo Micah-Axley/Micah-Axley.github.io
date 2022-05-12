@@ -1,0 +1,140 @@
+body {
+    font-family: "Tapestry", cursive;
+    background-image: url(bg5.jpg);
+    color: white;
+    margin: 0;
+    align-items: center;
+    justify-self: center;
+    padding: 0;
+    font-size: large;
+
+}
+
+/* test */
+*
+{
+box-sizing: border-box;
+font-family: "Tapestry", cursive;
+}
+h2
+{
+    position: relative;
+    font-size: x-large;
+    color: #252839;
+    -webkit-text-stroke: 2px #329d52;
+    text-transform: uppercase;
+}
+h2::before 
+{
+    content: attr(data-text);
+    position: absolute;
+    color: #01fe87;
+    height: 100%;
+    width: 100%;
+    -webkit-text-stroke: 0px #329d52;
+    border-right: 2px solid #01fe87;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate 
+{
+    0%,10%,100%
+    {
+        width:0%;
+    }
+    70%,90%
+    {
+        width: 100%;
+    }
+    
+} 
+
+
+
+
+/* classes */
+.div{
+    background-color: black;
+}
+.text{
+    font-size: xx-large;
+}
+.text1{
+    font-size: x-large;
+}
+.text2{
+    font-size: large;
+}
+.text3{
+    margin: auto;
+    font-size: x-large;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+.ctext{
+    font-size: xx-large;
+}
+.carousel{
+    width: 77%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+/* ID's */
+#c1h{
+    color: white;
+    font-size: xx-large;
+    background-color: black;
+    opacity: 60%;
+}
+#c1p{
+    color: white;
+    font-size: x-large;
+    background-color: black;
+    opacity: 60%;
+}
+#c2h{
+    color: white;
+    font-size: x-large;
+    background-color: black;
+    opacity: 60%;
+}
+#c2p{
+    color: white;
+    font-size: x-large;
+    background-color: black;
+    opacity: 60%;
+}
+#c3h{
+    color: white;
+    font-size: x-large;
+    background-color: black;
+    opacity: 60%;
+}
+#c3p{
+    color: white;
+    font-size: x-large;
+    background-color: black;
+    opacity: 60%;
+}
+.imgc{
+    max-width: 100%;
+    max-height: 30em;
+    align-items: center;
+    justify-self: center;
+    padding: auto;
+    margin: auto;
+}
+.patches{
+    float: right;
+}
+.img{
+    max-width: 20em;
+}
+.bord1{
+    border: 5px ridge lightblue;
+}
